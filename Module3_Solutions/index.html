@@ -9,7 +9,52 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food, LLC</h1></a>
+					</div> <!--End of navbar-brand-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> <!--End of nav-header-->
+				<div id="collapsable-nav" class="collapse navbar-collapse text-center">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#" class="visible-xs">Chicken</a>
+						</li>
+						<hr>
+						<li>
+							<a href="#" class="visible-xs">Beef</a>
+						</li>
+						<hr>
+						<li>
+							<a href="#" class="visible-xs">Sushi</a>
+						</li>
+					</ul>
+				</div> <!--End of collapsble-nav-->
+			</div> <!--End of container div-->
+		</nav>
+	</header>
+	<div id="main-content" class="container">
+		<div id="page-heading" class="text-center">
+			<h2>Our Menu</h2>
+		</div> <!--End of page heading-->
+		<div id="page-content" class="col-xs-12">
+			<div id="content-heading" class="text-center">
+				<h3>Chicken</h3>
+			</div>
+			<div id="content-details" class="text-left">
+				<span>Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. ( Hint: don’t forget to have an element with a class=’container’ or class=’containerfluid’ wrapping your grid. Remember that to have the grid do something “always”, i.e., no matter what browser window size, use the colxs... classes. In this case, since we want the section to take up the entire row, use colxs12.)</span>
+			</div>
+		</div>
+	</div> <!--End of main-content-->
+	<!--Jquery required for Bootstrap-->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
